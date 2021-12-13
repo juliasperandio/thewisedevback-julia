@@ -12,4 +12,5 @@ Casos de uso:
 
 -Alterar usuário
 -Alterar curso
+-Alterar módulo
 -Alterar aula
