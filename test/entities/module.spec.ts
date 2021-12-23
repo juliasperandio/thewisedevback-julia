@@ -51,4 +51,11 @@ describe('Module', () => {
         expect(module.position(branching)).toBe(3)
     })
 
+    it('should handle unexisting lectures', () => {
+        const module = new Module('Fundamentals')
+        const branching: Lecture = new Lecture('Branching', 'https://youtube.com/branching')
+
+        expect(module.position(branching)).toBeUndefined()
+    })
+
 })
