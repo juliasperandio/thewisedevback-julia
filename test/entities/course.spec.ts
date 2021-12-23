@@ -5,7 +5,8 @@ describe('Course', () => {
         const module = new Module('Fundamentals')
 
         const lecture: Lecture = {
-            description: 'Branching'
+            description: 'Branching',
+            videoUrl: 'https://youtube.com/1234'
         }
 
         module.add(lecture)
@@ -18,7 +19,8 @@ describe('Course', () => {
         const module = new Module('Fundamentals')
 
         const lecture: Lecture = {
-            description: 'Branching'
+            description: 'Branching',
+            videoUrl: 'https://youtube.com/1234'
         }
 
         module.add(lecture)
